@@ -81,6 +81,7 @@ color: #e0f780;
 
     }
 }
+
 /*BUTTON*/
 
 .btn{
@@ -149,6 +150,12 @@ color: #e0f780;
 .card-custom:hover .card-custom-image img{
     transform: scale(1.1);
 }
+.service{
+    height: 26rem;
+}
+.service-w{
+    height: 40rem;
+}
 
 
 #contacts .form-control{
@@ -178,4 +185,12 @@ color: #e0f780;
     background-color: #033f47;
     border-radius: 100px;
     font-size: 24px;
+}
+@media(max-width : 767px){
+    .service-w{
+        height: auto;
+    }
+    .service{
+        height: auto;
+    }
 }
